@@ -1,0 +1,244 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,p.li{
+	padding:0;
+	margin:0;
+	/*使用ul和 li的时候去掉默认的小圆点*/
+	list-style: none;
+}
+.section{
+	padding:80px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.container{
+	width: 980px;
+	margin:0 auto;
+	/*border: 2px solid red;*/
+}
+.sub-title{
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+}
+.sub-info{
+	color: #767676;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+a{
+	color: #4078c0;
+	text-decoration:none;
+}
+.gh-image{
+	width: 100%;
+	margin: 40px 0px;
+	height: 246px;
+	
+}
+.section h3{
+	text-align: center;
+}
+/*-----------头部开始------------*/
+.header{
+	padding:15px 0;
+	/*border: 1px solid red;*/
+	background: #f5f5f5;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.search{
+	float: left;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+	padding-left: 10px;
+	font-size: 13px;
+	color: #ccc;
+	width:360px; 
+
+}
+.header-c{
+	height: 28px;
+	line-height: 28px;
+}
+.functionlist{
+	float: left;
+}
+/*群组选择器，就是用类名用逗号组合起来*/
+.signin,.signup{
+	float: right;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 13px;
+	margin-top: -8px;
+	line-height: 24px;
+
+}
+.signin{
+	margin-left: 10px;
+	background-image: linear-gradient(#eee, #ddd);
+
+
+}
+.signup{
+	color: #fff;
+	background-image: linear-gradient(#8add6d, #60b044);
+
+}
+/*后代选择器*/
+.functionlist li{
+	float: left;
+	padding:0 6px;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*------------第二部分-------------*/
+.main{
+	background: black;
+	border-bottom: none;
+}
+/*TODO待优化(浮动造成的收缩问题)*/
+.main-c{
+	height: 351px;
+}
+.main-insto{
+	width: 640px;
+	color: #f5f5f5;
+	/*border: 1px solid red;*/
+	float: left;
+	
+}
+
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border: 1px solid white;*/
+	float: right;
+
+}
+.btn-up{
+	height: 30px;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.big-title{
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+.main-insto p{
+	font-size: 21px;
+	line-height: 1.5em;
+}
+.form{
+	height: 44px;
+	background: #fafafa;
+	/*padding: 10px;*/
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.form p{
+	font-size: 16px;
+	color: #ccc;
+	padding: 10px;
+
+}
+.ziti{
+	font-size:10px;
+	color: #767676;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+/*-------------第三部分-------------------*/
+.enterprise{
+	height: 220px;
+	/*其他浏览器background-image: -webkit-linear-gradient(#202d5f,#614381);*/
+	background-image:linear-gradient(#202d5f,#614381);
+}
+/*后代选择器*/
+.enterprise h2{
+	color:#f5f5f5;
+}
+.hidden{
+	height: 300px;
+	overflow: hidden;
+}
+
+/*TODO:待优化*/
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding:12px 20px;
+	font-size: 18px;
+	border-radius:6px; 
+	/*border: 1px solid white;*/
+}
+.btn-blue{
+	width: 346px;
+	margin:12px auto;
+	background-image: linear-gradient(#2da9f1, #1a5eb2);
+}
+/*-----------第四部分----------------*/
+.love{
+	height:636px;
+
+}
+.love-reason{
+	width: 450px;
+	height: 290px;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: center;
+}
+.l-img{
+	/*border: 1px solid black;*/
+	width: 100px;
+	height: 100px;
+	margin:40px auto 30px;
+	border-radius: 50%;
+}
+
+/*----------------第五部分-------------*/
+.btn-green{
+	width: 288px;
+	margin: 12px auto;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+
+
+/*----------------第六部分----------------*/
+.footer{
+	padding:45px 0;
+	/*border: 1px solid red;*/
+	
+}
+.footer-c{
+	height: 30px;
+	line-height: 30px;
+}
+.mao{
+	padding: 0 150px;
+}
+.footer ul{
+	font-size: 10px;
+	float: left;
+	
+	}
+.list li{
+	float: left;
+	padding: 0 6px;
+		
+	}
+.site li{
+	float: right;
+	padding: 0 6px;
+}
